@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>API CARD ID</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section class="container clear">
+    <header class="col-1 clear">
+      <canvas id="canvas"></canvas>
+    </header>
+    <section class="col-1 clear identity">
+      <section class="col-1-3">
+        <img class="pic" src="" alt="">
+      </section>
+      <section class="col-2-3 name">
+        
+        <h2 class="first"></h2>
+        <h2 class="last"></h2>
+      </section>
+      <section class="col-2-3 adress">
+        <span class="streetNumber"></span>
+        <span class="streetName"></span>
+        <span class="city"></span>
+        <span class="state"></span>
+        <span class="postcode"></span>
+        <span class="country"></span>
+        <img class="nat" src="" alt="">
+      </section>
+    </section> 
+     <section class="col-1 clear">
+       <section class="col-1-2 half">
+       <section class="col-1-2">
+         <span class="heading">d.o.b</span>
+          <p class="dob"></p>
+       </section>
+       
+       <section class="col-1-2">
+         <span class="heading">gender</span>
+         <p class="gender"></p>
+       </section>
+
+         <section class="col-1-2">
+         <span class="heading">date of issue</span>
+          <p class="registered"></p>
+       </section>
+         <section class="col-1-2">
+         <span class="heading">Emp N°</span>
+          <p class="dob"></p>
+       </section>
+       </section>
+       <section class="col-1-2 contact">
+          <p class="phone"></p>
+          <p class="username"></p>
+          <p class="email heading"></p>
+      </section>
+       
+     </section>
+     
+  </section>
+  <footer>
+  <button class="btn" onclick="showData()">get new ID</button>
+</footer>
+   <script src='https://unpkg.com/trianglify@^4/dist/trianglify.bundle.js'></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
